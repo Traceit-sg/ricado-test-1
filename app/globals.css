@@ -37,3 +37,16 @@ body {
 .animate-flash {
   animation: flash 0.3s infinite alternate;
 }
+
+@keyframes flash-green {
+  from {
+    background-color: limegreen;
+  }
+  to {
+    background-color: darkgreen;
+  }
+}
+
+.animate-flash-green {
+  animation: flash-green 0.3s infinite alternate;
+}
